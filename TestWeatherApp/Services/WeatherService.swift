@@ -33,7 +33,7 @@ extension URLSession: NetworkSession {}
 
 
 final class WeatherService: WeatherServiceProtocol {
-    private let apiKey = "88055e9762ffc55381f3ff8d4b873c87"
+    private let apiKey = Bundle.main.infoDictionary?["WeatherAPIKey"] as? String ?? ""
     private let session: NetworkSession
     
     init(session: NetworkSession = URLSession.shared) {

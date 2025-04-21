@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>WeatherAPIKey</key>
+	<string>88055e9762ffc55381f3ff8d4b873c87</string>
 	<key>Location when in Use Usage Description</key>
 	<string>Для отображения погоды необходимо знать ваше местоположение.</string>
 </dict>
