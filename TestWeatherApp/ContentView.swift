@@ -53,6 +53,7 @@ struct ContentView: View {
                 
             }
         }
+        .animation(.easeInOut, value: viewModel.weather)
         .onTapGesture {
             isFocused = false
         }
